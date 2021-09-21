@@ -1,0 +1,329 @@
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+        background-color: teal;
+        height: 4000px;
+    }
+    /* Start style navbar  */
+    
+    .nav-item {
+        padding: 0 .5rem;
+    }
+    
+    .nav-item a {
+        color: white !important;
+    }
+    
+    .lis-icon::before {
+        content: "";
+        border-left: 2px solid white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    /* style slide  button  */
+    
+    .but-left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translatex(-35%);
+    }
+    
+    .but-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translatex(35%);
+    }
+    
+    .parent-butt {
+        position: relative;
+    }
+    
+    .parent-butt .back {
+        position: absolute;
+        inset: 0 110% 0 0;
+        background-color: white !important;
+        transition: right 1s;
+    }
+    
+    .parent-butt:hover .back {
+        right: 0 !important;
+    }
+    
+    .btt-slid {
+        background-image: none !important;
+        border: 2px solid white;
+        padding: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btt-slid i {
+        position: relative;
+        z-index: 10;
+        transition: color .8;
+        font-size: 1.6rem;
+    }
+    
+    .parent-butt:hover i {
+        color: rgb(75, 71, 71);
+    }
+    /* Start slide label  */
+    
+    .carousel-caption {
+        /* animation: h1 5s ease; */
+        /* visibility: hidden; */
+    }
+    
+    @keyframes h1 {
+        0% {
+            visibility: hidden;
+        }
+        30% {
+            visibility: hidden;
+        }
+        100% {
+            visibility: visible;
+            ;
+        }
+    }
+    
+    h1 {
+        font-size: 6.5rem;
+        /* animation: h1 2s infinite ease 4s;
+       
+        opacity: 1; */
+        animation: h1-scale 5s;
+        margin-bottom: 1rem;
+    }
+    
+    @keyframes h1-scale {
+        50% {
+            transform: scale(1.5)
+        }
+        100% {
+            transform: scale(1.7)
+        }
+    }
+    /* button slide bottom   */
+    
+    .btn-slied {
+        margin-left: .5rem;
+        padding: .6rem 1.7rem;
+        font-size: 1.3rem;
+    }
+    
+    .btn-slied-1 {
+        background-color: #00c3da;
+        border: 1px solid #00c3da;
+        color: white;
+    }
+    
+    .btn-slied-1:hover {
+        color: white !important;
+    }
+    
+    .btn-slied-2 {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+    
+    .btn-slied-2:hover {
+        background: white;
+    }
+    /* End style navbar  */
+    /* Start style header  */
+    /* Start style About  */
+    
+    #about .title-about p {
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+    
+    #about .title-about span {
+        color: #00c3da !important;
+        /* position: relative; */
+    }
+    
+    #about .title-about p span::before {
+        content: "";
+        animation: span-title 8s infinite ease;
+    }
+    
+    @keyframes span-title {
+        2% {
+            content: "s";
+        }
+        4% {
+            content: "so";
+        }
+        6% {
+            content: "sof";
+        }
+        8% {
+            content: "soft";
+        }
+        10% {
+            content: "softw";
+        }
+        12% {
+            content: "softwa";
+        }
+        14% {
+            content: "softwar";
+        }
+        16% {
+            content: "software";
+        }
+        18% {
+            content: "softwares";
+        }
+        20% {
+            content: "software";
+        }
+        22% {
+            content: "softwar";
+        }
+        24% {
+            content: "softwar";
+        }
+        26% {
+            content: "softwa";
+        }
+        28% {
+            content: "softw";
+        }
+        30% {
+            content: "soft";
+        }
+        32% {
+            content: "sof";
+        }
+        34% {
+            content: "so";
+        }
+        36% {
+            content: "s";
+        }
+        38% {
+            content: "";
+        }
+        40% {
+            content: "a";
+        }
+        42% {
+            content: "ap";
+        }
+        44% {
+            content: "app";
+        }
+        46% {
+            content: "apps";
+        }
+        48% {
+            content: "app";
+        }
+        50% {
+            content: "ap";
+        }
+        52% {
+            content: "a";
+        }
+        54% {
+            content: "";
+        }
+        56% {
+            content: "w";
+        }
+        58% {
+            content: "we";
+        }
+        60% {
+            content: "web";
+        }
+        62% {
+            content: "webs";
+        }
+        64% {
+            content: "websi";
+        }
+        66% {
+            content: "websit";
+        }
+        68% {
+            content: "websit";
+        }
+        70% {
+            content: "websites";
+        }
+        72% {
+            content: "websites";
+        }
+        74% {
+            content: "website";
+        }
+        76% {
+            content: "websit";
+        }
+        78% {
+            content: "websi";
+        }
+        80% {
+            content: "webs";
+        }
+        82% {
+            content: "web";
+        }
+        84% {
+            content: "we";
+        }
+        86% {
+            content: "w";
+        }
+        86% {
+            content: "";
+        }
+    }
+    /* End style About  */
+    /* Star style counter  */
+    /* End style BLOG  */
+    /* Srart style Contact  */
+    /* *****************************  */
+    /* ******************  */
+    /* Start style About  */
+    /* Start style services  */
+    /* Start style Our Team  */
+    /* *********************** */
+    /* End style Team  */
+    /* Start style services  */
+    /* End style services  */
+    /* ******************************** */
+    /*     
+    /* h1 {
+        animation: h1 2s ease .5s;
+    }
+    
+ 
+    /* ******************************  */
+    
+    @media screen and (max-width:992px) {
+        html {
+            font-size: 13px;
+            font: 200;
+        }
+    }
+    
+    @media screen and (max-width:756px) {
+        html {
+            font-size: 10px;
+        }
+    }
+    
+    @media screen and (max-width:600px) {
+        html {
+            font-size: 8px;
+        }
+    }
