@@ -15,9 +15,14 @@ body
 a{
     cursor: pointer;
 }
+@media screen and (max-width:992px){
+  html
+  {
+      font-size: 14px;
+  }
+} 
 
-
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
    html
    {
        font-size: 12px;
@@ -77,6 +82,44 @@ a{
 }
 
 
+.cabe_text , .secure_text  {
+  font-size: 1.5rem;
+  color: #2b3436;
+  margin-top: 1.5rem;
+}
+.long_text {
+  font-size: .9rem;
+  margin: 20px 0;
+  font-weight: 300;
+  color: #3f3f3f;
+}
+.book_bt a {
+  color: #fefefe;
+  font-size:1.1rem;
+  color: #fefefe;
+  background-color: #f8ca11;
+  text-align: center;
+  padding: 10px 10px;
+  margin-top: 30px;
+  text-decoration: none;
+  transition: .5s all;
+}
+.book_bt a:hover
+{
+  background-color: #080806;
+}
+@media screen and (max-width:768px){
+  .ride_section_2 .container
+  {
+    margin-bottom: 2rem;
+  }
+  .ride_section_2 .container .col-md-8
+  {
+    order: 2;
+  }
+} 
+/* wlhy ahla mn el site zat nfso */
+/*******************************************************************/
 
 
 
@@ -163,3 +206,12 @@ padding-bottom: 0;
 
             color: #fecf3d !important;
           }
+
+
+
+         .copyright_section a:hover{
+
+                   color: green !important;
+          }
+
+               /* footer section end style Darsh */
