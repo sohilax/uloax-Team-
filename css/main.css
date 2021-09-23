@@ -15,9 +15,14 @@ body
 a{
     cursor: pointer;
 }
+@media screen and (max-width:992px){
+  html
+  {
+      font-size: 14px;
+  }
+} 
 
-
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
    html
    {
        font-size: 12px;
