@@ -88,7 +88,7 @@
 //                         <h2>Lorem, ipsum dolor.</h2>
 //                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, ea!</p>
 //                     </div>
-d
+
 
 //             </div>
 
@@ -97,7 +97,7 @@ d
 
 // }
 
-
+JSON.
 
 // document.getElementById('demo').innerHTML = laptop
 
@@ -174,3 +174,7 @@ switch (rol) {
 
     break
 }
+
+
+
+
